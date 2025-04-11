@@ -16,6 +16,8 @@ import {MatCardModule} from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductReadComponent } from './component/product/product-read/product-read.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FornecedorReadComponent } from './component/fornecedor/fornecedor-read/fornecedor-read.component';
+import { PagamentoReadComponent } from './component/Pagamento/pagamento-read/pagamento-read.component';
 
 
 
@@ -27,7 +29,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     FooterComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductReadComponent
+    ProductReadComponent,
+    FornecedorReadComponent,
+    PagamentoReadComponent
   ],
   imports: [
     BrowserModule,
