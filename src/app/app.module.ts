@@ -18,6 +18,11 @@ import { ProductReadComponent } from './component/product/product-read/product-r
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FornecedorReadComponent } from './component/fornecedor/fornecedor-read/fornecedor-read.component';
 import { PagamentoReadComponent } from './component/Pagamento/pagamento-read/pagamento-read.component';
+import { ProductCreateComponent } from './component/product/product-create/product-create.component';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule} from '@angular/material/input';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule} from '@angular/forms'
 
 
 
@@ -31,7 +36,8 @@ import { PagamentoReadComponent } from './component/Pagamento/pagamento-read/pag
     ProductCrudComponent,
     ProductReadComponent,
     FornecedorReadComponent,
-    PagamentoReadComponent
+    PagamentoReadComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +48,10 @@ import { PagamentoReadComponent } from './component/Pagamento/pagamento-read/pag
     MatListModule,
     MatCardModule,
     MatSnackBarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
