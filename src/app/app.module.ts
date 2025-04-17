@@ -22,7 +22,8 @@ import { ProductCreateComponent } from './component/product/product-create/produ
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule} from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule} from '@angular/forms'
+import { FormsModule} from '@angular/forms';
+import { MatTableModule} from '@angular/material/table';
 
 
 
@@ -51,7 +52,8 @@ import { FormsModule} from '@angular/forms'
     MatFormFieldModule,
     MatInputModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
